@@ -22,15 +22,12 @@
   ],
   "repositories": [
     {
-      "type": "path",
-      "url": "../laravel-settings",
-      "options": {
-        "symlink": true
-      }
+      "type": "vcs",
+      "url": "git@github.com:christcollegeau/laravel-settings.git"
     }
   ],
   "require": {
-    "php": "^8.0",
+    "php": "7.4|^8.0",
     "laravel/framework": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
     "qcod/laravel-settings": "dev-master"
   },
