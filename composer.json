@@ -20,12 +20,13 @@
       "email": "saquibweb@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/christcollegeau/laravel-settings.git"
-    }
-  ],
+  "repositories": {
+      "qcod/laravel-settings":
+      {
+        "type": "vcs",
+        "url": "https://github.com/christcollegeau/laravel-settings.git"
+      }
+  },
   "require": {
     "php": "^7.4|^8.0",
     "laravel/framework": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0",
