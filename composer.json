@@ -23,7 +23,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/christcollegeau/laravel-settings"
+      "url": "https://github.com/christcollegeau/laravel-settings.git"
     }
   ],
   "require": {
